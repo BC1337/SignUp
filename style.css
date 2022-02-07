@@ -61,7 +61,7 @@ body {
     display: flex;
     float: right;
     padding-left: 30%;
-    margin-top: -25%;
+    margin-top: -28.5%;
     color:black;
     width: 777px;
     font-size: 24px;
@@ -108,7 +108,13 @@ body {
     margin: 70px 0 0 285px;
     
 }
+#btn1:hover{
+    background-color: rgb(102, 151, 102);
+    color: black;
+    
+}
 .login{
     padding-top: 25px;
     margin-left: 285px;
 }
+
