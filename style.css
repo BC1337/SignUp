@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+}
+/*  ff*/
+#wrapper {
+    margin-left: 0;
+    margin-right: auto;
+    width: 960px;
+    color: white;
+}
+
+body {
+    height: 100vh;
+}
+
+.img{
+    display: inline-flex;
+    float: left;
+   height: 100vh;
+   z-index: 1;
+
+}
+.blackBox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+    width: 318px;
+    height: 120px;
+    opacity: .7;
+    top: 22%;
+    left: 6.5%;
+    
+}
+.odin{
+    display: flex;
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    z-index: 1;
+}
+.odinText{
+    display: flex;
+    float: right;
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 52px;
+    font-family:monospace;
+    z-index: 1;
+}
+.credits{
+    position: absolute;
+    bottom: 0%;
+}
+.rightContainer{
+    display: flex;
+    float: right;
+    padding-left: 30%;
+    margin-top: -25%;
+    color:black;
+    width: 777px;
+    font-size: 24px;
+}
+
+.rightPrompt1{
+    font-size: 18px;
+    padding-top: 151px;
+    margin-left: 290px;
+    margin-top: -511px;
+}
+.rightPrompt2{
+    color: black;
+    padding-top: 65px;
+    margin-left: 37%; /* margin-left: 285px;  */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form{
+    font-size: small;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.formBox{
+    margin: 40px 0  0 285px;
+}
+.formBox2{
+    margin-left: 555px;
+    margin-top: -167.5px;
+}
+
+#btn1{
+    display: flex;
+    height: 35px;
+    width: 145px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px;
+    background-color: rgb(78, 124, 78);
+    color: white;
+    font-weight: bold;
+    margin: 70px 0 0 285px;
+    
+}
+.login{
+    padding-top: 25px;
+    margin-left: 285px;
+}
